@@ -1,4 +1,4 @@
-$.({
+$.function({
 	$("#search-button").off('click').on('click',function(){
 		//获取输入框内容
 		var inputContent = $("#search-input").val().trim();
