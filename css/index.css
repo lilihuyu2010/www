@@ -1,17 +1,19 @@
 body {
-	text-align: center;
+	text-align : center;
+	font-size : 16px;
 }
 .input {
-	margin: 0 auto;
+	margin : 80px auto;
 }
 
 #search-input {
-	width: 200px;
-	height: 40px;
+	width : 500px;
+	height : 40px;
 }
 
 #search-button {
-	width: 60px;
-	height: 40px;
-	color:blue;
+	-webkit-appearance : button;
+	width : 100px;
+	height : 40px;
+	color : blue;
 }
