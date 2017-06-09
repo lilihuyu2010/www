@@ -1,0 +1,10 @@
+#search-input {
+	width: 200px;
+	height: 40px;
+}
+
+#search-button {
+	width: 60px;
+	height: 40px;
+	color:blue;
+}
