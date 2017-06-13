@@ -1,4 +1,4 @@
-$("#search-button").off('click').on('click',function(){
+var searchEvent = function(){
 	//获取输入框内容
 	var inputContent = $("#search-input").val().trim();
 	//如果输入框为空
@@ -18,4 +18,8 @@ $("#search-button").off('click').on('click',function(){
 			alert('出错了！');
 		}
 	});
-});
+};
+
+$("#search-button").on('click', searchEvent);
+
+$("#search-input").keydown（searchEvent);
